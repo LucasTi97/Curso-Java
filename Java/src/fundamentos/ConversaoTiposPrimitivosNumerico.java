@@ -9,5 +9,10 @@ public class ConversaoTiposPrimitivosNumerico {
 		
 		float b = (float) 1.123456788888; // explicita (CAST)
 		System.out.println(b);
+		
+		int c = 128;
+		byte d = (byte) c;
+		System.out.println(d);
+		
 	}
 }
